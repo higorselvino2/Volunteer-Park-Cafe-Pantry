@@ -238,8 +238,13 @@
             font-family: var(--font-display);
             font-size: 1.25rem;
             letter-spacing: 0.05em;
-            color: var(--clr-dark);
+            color: var(--clr-primary);
             white-space: nowrap;
+            transition: color 0.3s ease;
+        }
+        
+        .header-scrolled .logo-nav-text {
+            color: var(--clr-dark);
         }
         
         .menu-toggle {
@@ -257,7 +262,7 @@
             display: block;
             height: 2px;
             width: 100%;
-            background-color: var(--clr-dark);
+            background-color: var(--clr-primary);
             transition: all 0.3s ease;
         }
         .header-scrolled .menu-toggle span {
